@@ -1,0 +1,66 @@
+.head-banner{
+    background-color: #848484;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-image:url('https://images7.alphacoders.com/101/thumb-350-1010066.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    }
+
+
+.sezione-icone{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}    
+
+.bi bi-currency-euro{
+    font-size: 60px;
+}
+
+.sezione-immagini .immagine{
+    min-height: 30rem;
+    background-size: cover;
+}
+
+.sezione-immagini .testo{
+    padding: 3rem;
+}
+
+.recensione{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.recensione-singola img{
+    height: 150px;
+    width: 200px;
+}
+
+.newsletter{    
+    background-color: #848484;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-image:url('https://images7.alphacoders.com/101/thumb-350-1010066.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+
+}
+
+non ho scritto class perche e gia un elemento
+footer{
+    padding: 4rem;
+    padding-bottom: 4rem;
+}
+
+@media screen and (min-width: 768px){
+    .head-banner{
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+
+    .sezione-immagini .testo{
+        padding: 7rem;
+    }
+}
